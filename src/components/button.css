@@ -1,0 +1,29 @@
+.buttonWrapper {
+    width: 300px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #65cca9;
+    color: white;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.03);
+}
+.button {
+    width: 100%;
+    height: 46px;
+    padding: 0 10px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+    font-size: 16px;
+    color: #65cca9;
+    outline: none;
+    box-shadow: 0 4px 20px 0 transparent;
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+    -webkit-appearance: none;
+}
+
+.disabled {
+    color: grey;
+    pointer-events: none;
+}
